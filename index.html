@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Գլխավոր էջ</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav >
+            <a href="index.html">
+                <div class="brand">
+                    <img src="/images/logo.png" id="logo">
+                    <h1 id="name">
+                        Aweb.am
+                    </h1>
+                </div>
+            </a>
+
+            <ul>
+                <li><a href="index.html">Գլխավոր էջ</a></li>
+                <li class="none_working">Նյութեր</li>
+                <li><a href="courses.html">Դասընթացներ</a></li>
+                <li><a href="about.html">Մեր մասին</a></li>
+            </ul>
+            <img src="/images/menu.png" width="50px" id="burger">
+            <img src="/images/delete.png" width="50px" id="del">
+        </nav>
+        <div id="menu-bg">
+            <ul id="opened-menu">
+                <li><a href="index.html">Գլխավոր էջ</a></li>
+                <li class="none_working">Նյութեր</li>
+                <li><a href="courses.html">Դասընթացներ</a></li>
+                <li><a href="about.html">Մեր մասին</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <section class="content" id="part1">
+            <div class="left_1">
+                <div class="message">
+                    <img src="images/message.png">
+                    <h1>hello world!</h1>
+                </div>
+                <div class="text">
+                    <p>Ողջու՜յն, Aweb-ը թույն հարթակ է, որի օգնությամբ կարող ես սովորել ծրագրավորում։</p>
+                </div>
+                <div class="button" id="next-button">
+                    <p>Առաջ</p>
+                    <img src="images/arrow.png" class="arrow right_arrow">
+                </div>
+            </div>
+            <div class="right_1">
+                <img src="images/hello_man.png" alt="hello_man.png" id="wlcm_man">
+            </div>
+        </section>
+        <section class="content" id="part2">
+            <div class="left_2">
+                <div class="message">
+                    <img src="images/message.png">
+                    <h1>դասընթացներ</h1>
+                </div>
+                <div class="text">
+                    <p>Aweb-ը սկսում է տարբերվող և նոր մեթոդիկայով, տարաբնույթ գիտելիքներով լի ծրագրավորման դասընթացներ։</p>
+                </div>
+                <div class="button grancvel" id="next_button">
+                    <p>Գրանցվել</p>
+                    <img src="images/arrow.png" class="arrow right_arrow">
+                </div>
+            </div>
+            <div class="right_2">
+                <img src="images/man_2.png" alt="man_2.png" id="man_2">
+            </div>
+        </section>
+        <section class="content" id="part3">
+            <div class="left_1">
+                <div class="message">
+                    <img src="images/message.png">
+                    <h1>սոցցանցերում</h1>
+                </div>
+                <div class="text">
+                    <p>Aweb-ը ուսուցողական հետաքրքիր ու տարբերվող էջեր է վարում սոցցանցերում։</p>
+                </div>
+                <div class="buttons">
+                    <a href="https://www.facebook.com/Aweb.am" target="_blank"><img src="images/facebook.png" class="social_icons"></a>
+                    <a href="https://www.instagram.com/a_web.am/" target="_blank"><img src="images/instagram.png" class="social_icons"></a>
+                </div>
+            </div>
+            <div class="right_3">
+                <img src="images/woman_1.png" alt="woman_1.png" id="woman_1">
+            </div>
+        </section>
+        <section class="content" id="part4">
+            <div class="left_2 left_4">
+                <div class="message">
+                    <img src="images/message.png">
+                    <h1>կապ</h1>
+                </div>
+                <form class="for_letter">
+                    <input type="text" placeholder="Անուն, ազգանուն" id="name_input"><br>
+                    <input type="text" placeholder="Էլ. հասցե" id="name_input"><br>
+                    <textarea placeholder="Նամակ" id="letter_input"></textarea>
+                    <button class="button" id="send_button">
+                        <p>Ուղարկել</p>
+                        <img src="images/arrow.png" class="arrow right_arrow">
+                    </button>
+                </form>
+            </div>
+            <div class="right_2 right_4">
+                <img src="images/man_3.png" alt="man_3.png" id="man_3">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="index.html">Գլխավոր էջ</a></li>
+            <li class="none_working">Նյութեր</li>
+            <li><a href="courses.html">Դասընթացներ</a></li>
+            <li><a href="about.html">Մեր մասին</a></li>
+        </ul>
+        <ul>
+            <li>aweb.am@gmail.com</li>
+            <li>098101599</li>
+            <ul id="footer_icons">
+                <li><a href="https://www.facebook.com/Aweb.am" target="_blank"><img src="images/facebook_white.png" class="w_social_icons"></a></li>
+                <li><a href="https://www.instagram.com/a_web.am/" target="_blank"><img src="images/instagram_white.png" class="w_social_icons"></a></li>
+            </ul>
+        </ul>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+:root{
+    --black-color: #000;
+    --green-color: #00b800;
+}
+
+section{
+    margin-top: 50px;
+}
+
+.anun{
+    width: 180px;
+    background-color: #fff;
+    color: var(--green-color);
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+main h1{
+    text-align: center;
+    color: var(--green-color);
+    margin-top: 180px;
+    font-weight: bold;
+}
+
+.courses{
+    margin: 5% 10%;
+    display: flex;
+}
+
+.course{
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vernagir{
+    color: var(--green-color);
+    font-size: 18px;
+    margin: 20px 20px 8px 20px;
+    text-transform: uppercase;
+}
+
+.tvyal{
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.grancvel{
+    width: 120px;
+    height: 50px;
+    background-color: var(--green-color);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 6%;
+    margin: 10px 20px 20px 20px;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cover{
+    width: 150px;
+    border-radius: 0px 30px 30px 0px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#letter{
+    color: #fff;
+    font-weight: 400;
+}

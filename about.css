@@ -1,0 +1,25 @@
+:root{
+    --black-color: #000;
+    --green-color: #00b800;
+}
+
+.ab_section{
+    width: 70%;
+    margin-top: 200px;
+    margin-left: 15%;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px 50px;
+}
+
+.ab_header{
+    color: var(--green-color);
+    text-align: center;
+}
+
+.ab_section p{
+    color: var(--black-color);
+    padding: 30px;
+    font-size: 18px;
+    text-align: center;
+}

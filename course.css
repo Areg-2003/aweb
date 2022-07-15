@@ -1,0 +1,39 @@
+:root{
+    --black-color: #000;
+    --green-color: #00b800;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    gap: 5%;
+}
+
+#short{
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.vernagir{
+    color: var(--green-color);
+    font-size: 26px;
+    text-align: center;
+    margin: 20px 20px 30px 20px;
+    text-transform: uppercase;
+}
+
+.tvyal{
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 100px;
+    line-height: 30px;
+}
+
+.nkar{
+    width: 300px;
+    border-radius: 30px;
+}
