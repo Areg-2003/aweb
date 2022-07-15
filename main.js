@@ -23,22 +23,38 @@ del.onclick = function delClick(){
     del.style.display = "none";
 };
 
-function openCourse(){
-    window.open("course.html", "_self");
+var reg = document.getElementById("grancvel");
+reg.onclick = function () {
+    window.open("courses.html", "_self");
 };
 
-var send_btn = document.querySelector('#send_button');
+// var contact = [];
+// var cont_name = document.getElementById("cont_name_input");
+// var cont_mail = document.getElementById("cont_mail_input");
+// var cont_letter = document.getElementById("letter_input");
+// var cont_button = document.getElementById("contact_button");
 
-send_btn.onclick = function send(){
-    Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "aweb.edu.a@gmail.com",
-        Password : "1C5995618795AAFF2D27D5C616AA7ECD12EB",
-        To : 'movsisjanareg@gmail.com',
-        From : "aweb.edu.a@gmail.com",
-        Subject : "One Quesion",
-        Body : "Hello! I am Areg. And this is the body"
-    }).then(
-        message => alert(message)
-      );
-};
+
+
+// cont_button.onclick = function () {
+//     var cont_info = "Anun " + cont_name.value + ", " + "Mail " + cont_mail.value + ", " + "Namak " + cont_letter.value;
+//     contact.prompt(cont_info);
+//     alert(contact[0]);
+//     return false;
+// };
+
+// var send_btn = document.querySelector('#send_button');
+
+// send_btn.onclick = function send(){
+//     Email.send({
+//         Host : "smtp.elasticemail.com",
+//         Username : "aweb.edu.a@gmail.com",
+//         Password : "1C5995618795AAFF2D27D5C616AA7ECD12EB",
+//         To : 'movsisjanareg@gmail.com',
+//         From : "aweb.edu.a@gmail.com",
+//         Subject : "One Quesion",
+//         Body : "Hello! I am Areg. And this is the body"
+//     }).then(
+//         message => alert(message)
+//       );
+// };

@@ -37,3 +37,14 @@
     width: 300px;
     border-radius: 30px;
 }
+
+.for_letter {
+    align-items: center;
+}
+
+
+.send_button {
+  padding: 3%;
+  width: 200px;
+  margin: 0px;
+} 
